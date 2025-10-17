@@ -1,0 +1,49 @@
+.movies-table-section {
+  margin: 2rem auto;
+  max-width: 1200px;
+  min-width: 900px;
+  background: #181c2f;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px #0005;
+  padding: 2.5rem 3.5rem;
+  color: #ffe81f;
+}
+.movies-table {
+  width: 100%;
+  min-width: 850px;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 1.08rem;
+}
+.movies-table th, .movies-table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #23243a;
+  text-align: left;
+}
+.movies-table th {
+  background: #23243a;
+  color: #ffe81f;
+  font-weight: 700;
+}
+.movies-table tr:last-child td {
+  border-bottom: none;
+}
+.delete-btn {
+  background: #ff4b5c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.delete-btn:hover {
+  background: #ff1e2d;
+}
+.loading, .error-message {
+  margin: 1rem 0;
+  color: #ffe81f;
+  font-size: 1.1rem;
+}

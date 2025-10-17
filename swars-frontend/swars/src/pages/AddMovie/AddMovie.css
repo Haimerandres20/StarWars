@@ -1,0 +1,83 @@
+/* Barra superior de la tabla y formulario */
+.table-header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+/* Botón agregar película */
+.add-movie-btn {
+  background: #ffe81f;
+  color: #181c2f;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0004;
+  transition: background 0.2s, color 0.2s;
+}
+.add-movie-btn:hover {
+  background: #23243a;
+  color: #ffe81f;
+}
+
+.input-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.input-field-group label {
+  color: #ffe81f;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+.add-movie-page {
+  max-width: 480px;
+  margin: 2rem auto;
+  background: #181c2f;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px #0005;
+  padding: 2rem 2.5rem;
+  color: #ffe81f;
+}
+.add-movie-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.add-movie-form input,
+.add-movie-form textarea,
+.add-movie-form select {
+  background: #23243a;
+  color: #ffe81f;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+.add-movie-form input[type="date"] {
+  color-scheme: dark;
+}
+.add-movie-form button {
+  background: #ffe81f;
+  color: #181c2f;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.add-movie-form button:hover {
+  background: #23243a;
+  color: #ffe81f;
+}
+.error-message {
+  color: #ff4b5c;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}

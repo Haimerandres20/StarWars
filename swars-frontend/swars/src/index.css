@@ -1,0 +1,60 @@
+/* CSS Reset y configuración global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Arreglar iconos de react-toastify que están muy grandes */
+.Toastify__toast-icon {
+  width: 20px !important;
+  height: 20px !important;
+  min-width: 20px !important;
+  min-height: 20px !important;
+  max-width: 20px !important;
+  max-height: 20px !important;
+}
+
+.Toastify__toast-icon svg {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* Estilos para las notificaciones */
+.Toastify__toast-container {
+  width: auto !important;
+  max-width: 400px !important;
+}
+
+.Toastify__toast {
+  border-radius: 12px !important;
+  margin-bottom: 8px !important;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #00ff7f, #32cd32) !important;
+  color: #000 !important;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #ff4757, #ff3742) !important;
+  color: #fff !important;
+}
+
+.Toastify__progress-bar {
+  height: 3px !important;
+}
+
+/* Evitar que elementos se desborden */
+html, body {
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
