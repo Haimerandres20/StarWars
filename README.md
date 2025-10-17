@@ -92,3 +92,17 @@ Abrir el frontend en el navegador:
 Copia la URL que aparece en la terminal (por defecto suele ser
 👉 http://localhost:5173/
 ).
+:
+
+🔐 Acceso al proyecto
+
+Para ingresar al sistema se ha creado un usuario por defecto con las siguientes credenciales:
+
+Usuario: admin
+
+Contraseña: Admin
+
+🗃️ Base de datos
+
+El proyecto utiliza SQLite como base de datos por defecto, por lo que no es necesario realizar configuraciones adicionales.
+Los datos iniciales y el usuario administrador ya están creados, permitiendo acceder inmediatamente al sistema después de ejecutar las migraciones y levantar el servidor.
